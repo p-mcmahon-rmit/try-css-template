@@ -1,0 +1,26 @@
+/* !!!!! */
+/* This is some default styling for the tryCSS code blocks */
+/* It should be imported BEFORE your own CSS, so that you can overwrite details such as the below colour values */
+/* !!!!! */
+
+:root{
+  /* basic 2-bit palette from 1bit Monitor Glow Palette by Polyducks */
+  /* https://lospec.com/palette-list/1bit-monitor-glow */
+  --colour-1: #222323;
+  --colour-2: #f0f6f0;
+  --colour-3: #156082;
+  --colour-4: #e97132;
+}
+
+.tryItBlockWrapper{
+  display: grid;
+  grid-template-areas:
+      "header header"
+      "choice runner";
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-rows: max-content 1fr;
+  height: 100%;
+}
+.tryItBlockWrapper header{
+  grid-area: header;
+}

@@ -1,0 +1,9 @@
+/* this is style for the template demo */
+body{
+  width: 80%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 1rem;
+  color: var(--colour-2);
+  background-color: var(--colour-1);
+}
