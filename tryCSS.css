@@ -24,3 +24,9 @@
 .tryItBlockWrapper header{
   grid-area: header;
 }
+.tryItBlockWrapper .choice{
+  cursor: pointer;
+}
+.tryItBlockWrapper .choice:active{
+  cursor: text;
+}
